@@ -1,0 +1,216 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body,
+li,
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #253755;
+    /* margin-bottom: 400px; */
+}
+
+h1 {
+    margin: 0;
+}
+
+header {
+    height: calc(100vh - 50px);
+    background: no-repeat center/cover url('img/andre-benz-eWNdBM_CfBc-unsplash.jpg');
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 79px;
+    background-color: #253755;
+    border-bottom: #376edc solid 4px;
+    box-sizing: content-box;
+}
+
+.menu p {
+    margin: 29px 60px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 15px 40px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Sessão de apresentação  */
+
+.apresentacao {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.apresentacao p {
+    background-color: #00000038;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.apresentacao button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: #376edc;
+    color: white;
+}
+
+
+/* Sessão Sobre */
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 980px;
+    margin: 100px auto;
+}
+
+.content {
+    display: flex;
+    max-width: 980px;
+}
+
+.content div {
+    padding: 80px 200px 80px 60px;
+    width: 570px;
+    background-color: #b09e80;
+}
+
+.sobre img {
+    position: relative;
+    width: 500px;
+    height: 390px;
+    right: 60px;
+    top: 50px;
+}
+
+.sobre h1 {
+    margin-bottom: 55px;
+}
+
+
+/* Sessão de Serviços */
+
+.nossos-servicos {
+    text-align: center;
+}
+
+.servicos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 980px;
+    margin: 20px auto;
+    justify-content: space-between;
+    color: white;
+}
+
+.servicos-content h1 {
+    padding: 10px 0;
+    border-bottom: 2px solid white;
+}
+
+.servicos-content button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: #b09e80;
+    color: black;
+    font-weight: bold;
+}
+
+.servicos-content {
+    padding: 25px 0;
+}
+
+.servicos p {
+    margin: 30px 0;
+}
+
+
+/* Sessão Footer */
+
+footer {
+    /* max-width: 980px; */
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #b09e80;
+    height: 350px;
+    align-items: center;
+    font-weight: bold;
+}
+
+footer h1 {
+    margin-bottom: 45px;
+}
+
+.contato {
+    /* background-color: blue; */
+    margin-left: 198px;
+}
+
+.telefone {
+    /* background-color: brown; */
+    margin-top: 105px;
+}
+
+.newsletter {
+    /* background-color: cyan; */
+    margin-right: 198px;
+}
+
+.newsletter input {
+    padding: 10px 20px;
+    width: 250px;
+    border-radius: 0;
+    background: #b09e80;
+    font-weight: bold;
+    border: 2px solid black;
+    color: black;
+}
+
+.newsletter button {
+    padding: 12px 15px;
+    border-radius: 0;
+    background-color: black;
+    color: #b09e80;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter input::placeholder {
+    color: black;
+}
+
+footer svg {
+    margin: 5px 10px;
+    cursor: pointer;
+}
